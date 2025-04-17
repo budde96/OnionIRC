@@ -26,9 +26,6 @@ service:
   onionirc:
     container_name: onionirc
     image: localhost/onionirc:latest
-    cpus: 1
-    mem_limit: 128m
-    mem_reservation: 1m
     restart: unless-stopped
 ```
 ## Troubleshooting
